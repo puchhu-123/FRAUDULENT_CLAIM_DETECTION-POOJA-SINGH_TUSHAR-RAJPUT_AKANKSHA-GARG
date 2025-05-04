@@ -40,10 +40,12 @@ We need to perform the following steps for successfully completing this assignme
 
 
 
+
 Data Overview:-
 
 -Rows:  1000
 -Columns: 40
+
 
 
 
@@ -61,6 +63,7 @@ After evaluating the performance of the tuned Random Forest model on the validat
 While the Random Forest model shows high specificity and slightly better accuracy than the Logistic Regression model, its recall is extremely poor. With a recall of just 11.76%, it fails to identify the majority of actual fraud cases — a critical shortcoming in fraud detection where missing fraudulent claims can be costly.
 
 In contrast, the Logistic Regression model, though slightly lower in accuracy (73.43%), achieves a much higher recall of 82.35% and a more balanced F1 score of 0.5957. This indicates that it is significantly better at detecting fraudulent claims, even if it occasionally misclassifies some non-fraud cases.
+
 
 
 Conclusion:-
